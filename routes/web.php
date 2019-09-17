@@ -35,6 +35,7 @@ Route::get("/submit", "PagesController@submit");
 
 Route::resource('vendors',"VendorsController");
 Route::resource('foods', "FoodsController");
+
 //route for creating food for a particular vendor
 
 Route::get('/food/create/{id}',"FoodsVendorController@create");
@@ -43,7 +44,9 @@ Route::post('/food/store/{id}', "FoodsVendorController@store");
 
 Route::get('/food/index/{id}', "FoodsVendorController@index");
 
+//route for uploading images to the vendor
 
+Route::get('/vendors/uploadImage/{id}', "VendorImageController@create" );
 
 Auth::routes();
 

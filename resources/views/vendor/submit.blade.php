@@ -105,19 +105,7 @@
                                     <!--end col-md-6-->
                                 </div>
                             </section>
-                            <section>
-                                <h3>Gallery</h3>
-                                <div class="file-upload-previews"></div>
-                                <div class="file-upload">
-                                    <input type="file" name="images" class="file-upload-input with-preview" multiple title="Click to add files" maxlength="4" accept="gif|jpg|png">
-                                    <span>Click or drag images here</span>
-                                </div>
-                                <!--<div class="form-group">
-                                    <label for="video">Video URL</label>
-                                    <input type="text" class="form-control" name="video" id="video" placeholder="http://">
-                                </div> -->
-                                <!--end form-group--> 
-                            </section>
+                           
                             <section>
                                 <h3>Social(Optional)</h3>
                                 <div class="row">
