@@ -16,7 +16,7 @@ class CreateVendorImagesTable extends Migration
         Schema::create('vendor_images', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->String('path');
-            $table->integer('vendor_id');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
