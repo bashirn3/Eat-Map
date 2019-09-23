@@ -48,6 +48,8 @@ Route::get('/food/index/{id}', "FoodsVendorController@index");
 
 Route::get('/vendors/uploadImage/{id}', "VendorImageController@create" );
 
+Route::post('/vendors/storeImage/{id}',"VendorImageController@store");
+
 Auth::routes();
 
 

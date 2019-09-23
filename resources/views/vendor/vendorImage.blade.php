@@ -6,7 +6,7 @@
 
 
 <h3>Gallery</h3>
-<form method="post" action="" enctype="multipart">
+<form method="post" action="{{url('vendors/storeImage/'.$id)}}" enctype="multipart">
   <div class="file-upload-previews"></div>
     <div class="file-upload">
        <input type="file"  name="images[]" class="file-upload-input with-preview" multiple title="Click to add files" maxlength="4" accept="gif|jpg|png">

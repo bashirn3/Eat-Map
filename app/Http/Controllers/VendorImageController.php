@@ -12,4 +12,18 @@ class VendorImageController extends Controller
 
    }
 
+   public function store($id, Request $request){
+
+   $this->validate( $request, [
+        
+
+     'images[]' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
+
+   ]);
+
+   
+
+}
+
 }
