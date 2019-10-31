@@ -159,7 +159,7 @@
 
                             <section class="center">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary btn-rounded">Preview & Submit Listing</button>
+                                    <button type="submit" class="btn btn-primary btn-rounded">Preview & Submit Vendor</button>
                                 </div>
                                 <!--end form-group-->
                             </section>
