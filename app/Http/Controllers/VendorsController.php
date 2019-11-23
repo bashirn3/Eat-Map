@@ -65,8 +65,9 @@ class VendorsController extends Controller
        $vendor->facebook= $request->input('facebook');
        $vendor->user_id=auth()->user()->id;
        $vendor->save();
-
-       return redirect("/vendors/create")->with("success","Vendor Created");
+        
+       $id = Vendor::$id;
+       return redirect("/vendors/image_ask/.$id")->with("success","Vendor Created");
       
     }
 
@@ -145,7 +146,7 @@ class VendorsController extends Controller
          $vendor = Vendor::find($id);
          $vendor->delete();
 
-       return redirect("/vendors")->with("success","Vendor deleted succesfully ");
+       return redirect("/vendors")->with("success","Vendor deleted succesfully");
       
     }
 }

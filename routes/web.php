@@ -50,6 +50,8 @@ Route::get('/vendors/uploadImage/{id}', "VendorImageController@create" );
 
 Route::post('/vendors/storeImage/{id}',"VendorImageController@store");
 
+Route::get('/vendors/image_ask/{id}',"VendorImageController@ask");
+
 Auth::routes();
 
 
