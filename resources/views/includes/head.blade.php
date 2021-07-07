@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{URL::asset ("assets/css/trackpad-scroll-emulator.css")}}" type="text/css">
     <link rel="stylesheet" href="{{URL::asset ("assets/css/style.css")}}" type="text/css">
     
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <title>{{ config('app.name', 'Eat Map') }}</title>
 
 </head>
